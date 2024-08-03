@@ -1,8 +1,10 @@
 const { Model, DataTypes } = require('sequelize');
 const sequelize = require('../config/connection');
 
+// Define the Product model
 class Product extends Model {}
 
+// Initialize the Product model with its properties
 Product.init(
   {
     id: {

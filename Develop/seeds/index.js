@@ -5,22 +5,23 @@ const seedProductTags = require('./product-tag-seeds');
 
 const sequelize = require('../config/connection');
 
+// Seed all the data to the database
 const seedAll = async () => {
-  await sequelize.sync({ force: true });
+  await sequelize.sync({ force: true }); // Sync the database
   console.log('\n----- DATABASE SYNCED -----\n');
-  await seedCategories();
+  await seedCategories(); // Seed categories
   console.log('\n----- CATEGORIES SEEDED -----\n');
 
-  await seedProducts();
+  await seedProducts(); // Seed products
   console.log('\n----- PRODUCTS SEEDED -----\n');
 
-  await seedTags();
+  await seedTags(); // Seed tags
   console.log('\n----- TAGS SEEDED -----\n');
 
-  await seedProductTags();
+  await seedProductTags(); // Seed product tags
   console.log('\n----- PRODUCT TAGS SEEDED -----\n');
 
-  process.exit(0);
+  process.exit(0); // Exit the process
 };
 
-seedAll();
+seedAll(); // Call the function to seed all data
