@@ -8,6 +8,8 @@ This project is a back end for an e-commerce website that uses the latest techno
 - Allows for database schema and seed commands
 - Supports API GET, POST, PUT, and DELETE routes for categories, products, and tags
 
+## Mock-Up
+![run-through of utilization](Develop/assets/img/gifgif.gif)
 ## Table of Contents
 
 - [Installation](#installation)
@@ -148,8 +150,7 @@ Use [Insomnia](https://insomnia.rest/)
     }
 
 ## Walkthrough Video Link
-[link here]
-
+[Click Here](https://youtu.be/zqTaFpXnZSA)
 ## License
 This project is licensed under the MIT License. See the `LICENSE` file for details.
 
