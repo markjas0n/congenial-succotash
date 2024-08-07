@@ -31,7 +31,7 @@ This project is a back end for an e-commerce website that uses the latest techno
 
 3. Install dependencies:
     ```bash
-    npm install
+    npm i
 
 4. Create a 'env' file in the root directory and add your PostgreSQL database with credentials:
     ```bash
@@ -52,3 +52,39 @@ This project is a back end for an e-commerce website that uses the latest techno
     ```bash
     npm start
 
+## API Endpoints
+
+**Categories** 
+- GET /api/categories - Get all categories
+- GET /api/categories/:id - Get a single category by its ID
+
+- POST /api/categories - Create a new category
+- PUT /api/categories/:id - Update a category by its ID
+- DELETE /api/categories/:id - Delete a category by its ID
+
+**Products**
+- GET /api/products - Get all products
+- GET /api/products/:id - Get a single product by its ID
+- POST /api/products - Create a new product
+- PUT /api/products/:id - Update a product by its ID
+- DELETE /api/products/:id - Delete a product by its ID
+
+**Tags**
+- GET /api/tags - Get all tags
+- GET /api/tags/:id - Get a single tag by its ID
+- POST /api/tags - Create a new tag
+- PUT /api/tags/:id - Update a tag by its ID
+- DELETE /api/tags/:id - Delete a tag by its ID
+
+## Models
+
+**Category**
+- id - Integer, Primary Key, Auto Increment, Not Null
+- category_name - String, Not Null
+
+**Product**
+-
+-
+-
+-
+-
